@@ -1,0 +1,64 @@
+body{
+  height:140vh;
+  background-color: white;
+}
+h1{
+  position: relative;
+}
+h1::after{
+  content: "";
+  position: absolute;
+  height: 150px;
+  background-color: rgb(44, 62, 80);
+width: 5px;
+top:20px;
+right:37% ;
+transform: rotate(90deg);
+}
+h1::before{
+  content: "";
+  position: absolute;
+  height: 150px;
+  background-color: rgb(44, 62, 80);
+width: 5px;
+top:20px;
+left:37% ;
+transform: rotate(90deg);
+}
+p{
+  text-align: center;
+  margin: 20px;
+}
+i{
+  color:rgb(44, 62, 80) !important;
+}
+.cover{
+  height:100%;
+  width:100%;
+  background-color: rgba(0, 255, 255, 0.443);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+opacity: 0;
+}
+.cover i{
+  color: white !important;
+  font-size: 6.5rem;
+
+}
+.H:hover .cover{
+  opacity: 1;
+}
+.overlay{
+  height:100%;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top:0;
+  bottom: 0;
+  z-index: 5;
+}

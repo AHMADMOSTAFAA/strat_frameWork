@@ -1,0 +1,27 @@
+body{
+  height:100vh;
+  background-color: #1abc9c;
+}
+h1{
+  position: relative;
+}
+h1::after{
+  content: "";
+  position: absolute;
+  height: 150px;
+  background-color: white;
+width: 5px;
+top:20px;
+right:30px ;
+transform: rotate(90deg);
+}
+h1::before{
+  content: "";
+  position: absolute;
+  height: 150px;
+  background-color: white;
+width: 5px;
+top:20px;
+left:30px ;
+transform: rotate(90deg);
+}
