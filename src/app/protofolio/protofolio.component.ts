@@ -19,13 +19,13 @@ export class ProtofolioComponent {
     }
   }
    imgsrc3(){
-    this.img="assets/images/cake.png"
+    this.img="../../assets/images/cake.png"
    }
    imgsrc2(){
-    this.img="assets/images/circus.png"
+    this.img="../../assets/images/circus.png"
    }
    imgsrc1(){
-    this.img="assets/images/house.png"
+    this.img="../../assets/images/house.png"
    }
    
 }
