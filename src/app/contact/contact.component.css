@@ -1,5 +1,5 @@
 body{
-  height:100vh;
+  height:140vh;
  
 }
 h1{
@@ -26,7 +26,12 @@ left:35% ;
 transform: rotate(90deg);
 }
 button{
-  background-color:  #1abc9c
+  background-color:  #1abc9c;
+}
+button:hover{
+  background-color:  #1abc9c !important;
+  height: 55px;
+  width:75px;
 }
 i{
   width: auto;

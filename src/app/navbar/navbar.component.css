@@ -22,3 +22,6 @@ nav{
   width:max-content;
   overflow: hidden;
 }
+span {
+  color: white;
+}
